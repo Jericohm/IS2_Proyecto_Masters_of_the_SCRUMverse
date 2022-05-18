@@ -5,13 +5,13 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 ### localhost:3000/users/[nombre listado abajo]
 
-*dana
-*jerico
-*fernando
-*hassel
-*javier
-*jose
-*luis
-*maria
+- dana
+- jerico
+- fernando
+- hassel
+- javier
+- jose
+- luis
+- maria
 
 **EJEMPLO: localhost:3000/users/fernando**
