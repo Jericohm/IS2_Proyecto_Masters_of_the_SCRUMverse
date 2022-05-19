@@ -13,6 +13,7 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 - jose
 - luis
 - maria
+- alan
 
 **EJEMPLO: localhost:3000/users/fernando**
 
