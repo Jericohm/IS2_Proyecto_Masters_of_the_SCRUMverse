@@ -15,3 +15,8 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 - maria
 
 **EJEMPLO: localhost:3000/users/fernando**
+
+### ¿Cómo ejecutar el proyecto en docker?
+
+**Build:  docker build -t pro_fin .**
+**Run:    docker run -p 3000:3000 pro_fin**
