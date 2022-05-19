@@ -1,16 +1,8 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Carter One', cursive;
+    font-family: 'Arial', cursive;
 }
 
 body{
@@ -18,12 +10,12 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-    background: #efefef;
+    background: #040e42;
 }
 
 .card{
     position: relative;
-    width: 310px;
+    width: 300px;
     height: 400px;
     background: #fff;
     border-radius: 5px;
@@ -38,17 +30,17 @@ body{
 }
 
 .card .head{
-    height: 125px;
+    height: 130px;
     width: 100%;
     position: relative;
 }
 
 .card .head .circle{
     position: absolute;
-    width: 310px;
-    height: 310px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    background: #4e0202;
+    background: #df901b;
     bottom: 0;
 
 }
@@ -57,7 +49,7 @@ body{
     width: 150px;
     height: 150px;
     position:  absolute;
-    background: #fff;
+    background: rgb(202, 67, 49);
     padding: 5px;
     border-radius: 50%;
     bottom: -30%;
@@ -75,16 +67,16 @@ body{
 .card .description{
     height: 220px;
     padding: 40px 20px 20px 20px;
-    border-bottom: solid 1px rgba(6,74,76,.18);
+    border-bottom: solid 1px rgb(202, 67, 49);
     text-align:justify;
 }
 
 .card .description h4{
-    color: #791204;
+    color: #01021a;
 }
 
 .card .description h5{
-    color: #a70707;
+    color: #c2812b;
 }
 
 .card .description p{
@@ -103,12 +95,12 @@ body{
 .card .contact a{
     text-decoration: none;
     color: #fff;
-    background: #640b04;
+    background: rgb(202, 67, 49);
     padding: 5px 20px;
     border-radius: 5px;
     transition: .3s;
 }
 
 .card .contact a:hover{
-    background: #630303;
-}*/
+    background: #0b6164;
+}

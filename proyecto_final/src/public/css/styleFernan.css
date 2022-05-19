@@ -1,12 +1,4 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +10,7 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-    background: #efefef;
+    background: #040e42;
 }
 
 .card{
@@ -111,4 +103,4 @@ body{
 
 .card .contact a:hover{
     background: #630303;
-}*/
+}

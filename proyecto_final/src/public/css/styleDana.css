@@ -1,12 +1,4 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,21 +10,21 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-    background: #efefef;
+    background: #040e42;
 }
 
 .card{
     position: relative;
     width: 310px;
     height: 400px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 5px;
     overflow: hidden;
     transition: .5s;
 }
 
 .card:hover{
-    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    box-shadow: 0 5px 15px rgba(255, 49, 135, 0.5);
     transform: translateY(-15px);
 
 }
@@ -48,7 +40,7 @@ body{
     width: 310px;
     height: 310px;
     border-radius: 50%;
-    background: #4e0202;
+    background: #700640;
     bottom: 0;
 
 }
@@ -80,11 +72,11 @@ body{
 }
 
 .card .description h4{
-    color: #791204;
+    color: #700640;
 }
 
 .card .description h5{
-    color: #a70707;
+    color: #700640;
 }
 
 .card .description p{
@@ -103,12 +95,12 @@ body{
 .card .contact a{
     text-decoration: none;
     color: #fff;
-    background: #640b04;
+    background: #700640;
     padding: 5px 20px;
     border-radius: 5px;
     transition: .3s;
 }
 
 .card .contact a:hover{
-    background: #630303;
-}*/
+    background: #700640;
+}
