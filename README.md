@@ -17,6 +17,13 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 **EJEMPLO: localhost:3000/users/fernando**
 
+## Página de Docker
+En este apartado estan contenidas las páginas informativas del proyecto
+1.- Introducción a docker
+
+**EJEMPLO: localhost:3000/docker/intro**
+
+
 ### ¿Cómo ejecutar el proyecto en docker?
 
 Desde la carpeta raíz donde se encuentra el Dockerfile y la carpeta src ejecutar los siguientes comandos:
