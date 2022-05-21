@@ -19,7 +19,7 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 ## Página de Docker
 En este apartado estan contenidas las páginas informativas del proyecto
-1.- Introducción a docker
+- 1.-Introducción a docker
 
 **EJEMPLO: localhost:3000/docker/intro**
 
