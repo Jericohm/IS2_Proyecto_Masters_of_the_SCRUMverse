@@ -11,8 +11,12 @@ mongoose.connect('mongodb+srv://jericohm:12345@cluster1.zhnf0.mongodb.net/databa
   console.log("Conectado a MongoDB")
 });
 
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var dockerRouter=require('./routes/docker');
+var datosRouter = require('./routes/datos');
+
 
 var app = express();
 
@@ -28,6 +32,8 @@ app.use(cookieParser());
 app.use(express.static('public'));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/docker',dockerRouter);
+app.use('/datos', datosRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
