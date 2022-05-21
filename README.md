@@ -23,6 +23,10 @@ En este apartado estan contenidas las páginas informativas del proyecto
 
 **EJEMPLO: localhost:3000/docker/intro**
 
+## Página de Apirest
+En este apartado se encuentran contenidos los métodos GET, POST, DELETE, PATCH Y PUT
+
+**EJEMPLO: localhost:3000/datos**
 
 ### ¿Cómo ejecutar el proyecto en docker?
 
