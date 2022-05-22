@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
 
 /*Metodo Post*/
 router.post('/', (req, res, next)=>{
-  var juego = Videojuego({
+  var juego = Game({
     id: req.body.id,
     nombre: req.body.nombre,
     anio: req.body.anio,
