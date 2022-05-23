@@ -55,7 +55,7 @@ router.put('/:idMar', function(req, res, next) {
     if(err){
       res.json({'Error':'No existe'})
     }else{
-      res.json({'Estatus':'Actualizado')
+      res.json({'Estatus':'Actualizado'})
     }
   });
 });
