@@ -14,4 +14,7 @@ router.get('/imagenes', function(req, res, next) {
   res.render('docker/PaginaImagenes/Imagenes',{img:'imagenes.png'});
 });
 
+router.get('/directivas', function(req, res, next) {
+  res.render('docker/PaginaDirectivas/Directivas',{img:'imagenes.png'});
+});
 module.exports = router;
