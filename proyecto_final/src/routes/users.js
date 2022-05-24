@@ -27,19 +27,22 @@ router.get('/hassel', function(req, res, next) {
 });
 
 router.get('/javier', function(req, res, next) {
-  res.render('equipo/PaginaJACR/javier',{style:'styleJavier.css', img:'profile.jpeg', img2:'banner.png'});
-});
-
-router.get('/jose', function(req, res, next) {
-  res.render('equipo/PaginaJMRR/jose',{style:'styleJose.css'});
-});
-
-router.get('/luis', function(req, res, next) {
-  res.render('equipo/PaginaLMVO/index');
+  res.render('equipo/PaginaJACR/javier',{style:'styleJavier.css', img:'JACR.jpg'});
 });
 
 router.get('/maria', function(req, res, next) {
-  res.render('equipo/PaginaMTJS/index');
+  res.render('equipo/PaginaMTJS/maria',{style:'styleTere.css', img:'MTJS.jpg'});
 });
 
+router.get('/javier', function(req, res, next) {
+  res.render('equipo/PaginaLMVO/luis',{style:'styleLuis.css', img:'LMVO.jpg'});
+});
+
+router.get('/jose', function(req, res, next) {
+  res.render('equipo/PaginaJMRR/jose',{style:'styleJose.css', img:'JMRR.jpg'});
+});
+
+router.get('/luis', function(req, res, next) {
+  res.render('equipo/PaginaLMVO/luis',{style:'styleLuis.css', img:'LMVO.jpg'});
+});
 module.exports = router;
