@@ -10,4 +10,8 @@ router.get('/intro', function(req, res, next) {
   res.render('docker/PaginaIntro/Intro',{style:'styleIntro.css'});
 });
 
+router.get('/imagenes', function(req, res, next) {
+  res.render('docker/PaginaImagenes/Imagenes',{img:'imagenes.png'});
+});
+
 module.exports = router;
