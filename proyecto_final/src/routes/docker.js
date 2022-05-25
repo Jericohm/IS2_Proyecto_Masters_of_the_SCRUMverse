@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render('dockerI',{style:'styleDocker.css',intro:'/docker/intro',imagenes:'/docker/imagenes'
+  ,directivas:'/docker/directivas',ciclodevida:'/docker/ciclodevida', contenedores:'/docker/contenedores',archivo:'/docker/archivo'});
 });
 
 router.get('/intro', function(req, res, next) {
