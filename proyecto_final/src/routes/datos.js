@@ -44,10 +44,6 @@ router.delete('/:idJuego', function(req, res, next) {
 
 // TODO:
 /*Metodo Patch*/
-
-
-/*Metodo Put*/
-
 router.put('/:idMar', function(req, res, next) {
   const body = req.body
   Game.updateOne({'id':req.params.idMar},
@@ -60,6 +56,10 @@ router.put('/:idMar', function(req, res, next) {
     }
   });
 });
+
+/*Metodo Put*/
+
+
 
 
 module.exports = router;
