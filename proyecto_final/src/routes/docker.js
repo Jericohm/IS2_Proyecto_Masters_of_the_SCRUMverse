@@ -25,4 +25,9 @@ router.get('/ciclodevida', function(req, res, next) {
 router.get('/contenedores', function(req, res, next) {
   res.render('docker/PaginaContenedores/Contenedores',{img:'cont.jpg'},{img2:'cont2.jpg'});
 });
+
+router.get('/archivo', function(req, res, next) {
+  res.render('docker/PaginaArchivo/Archivo',{img:'image1.png'});
+});
+
 module.exports = router;
