@@ -19,6 +19,6 @@ router.get('/directivas', function(req, res, next) {
 });
 
 router.get('/ciclodevida', function(req, res, next) {
-  res.render('docker/PaginaCiclosDeVida/PaginaCiclosDeVida',{img:'contenedores.jpg'});
+  res.render('docker/PaginaCiclosDeVida/CiclosDeVida',{img:'contenedores.jpg'});
 });
 module.exports = router;
