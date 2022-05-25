@@ -3,11 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index',{logo:'Logo.jpg'});
 });
-
-/*router.get('/', function(req, res, next) {
-  res.sendFile('./routes/equipo/PaginaDJHM/jerico.html');
-});*/
 
 module.exports = router;
