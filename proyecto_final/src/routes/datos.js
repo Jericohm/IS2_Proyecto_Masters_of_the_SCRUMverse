@@ -13,6 +13,16 @@ router.get('/', function(req, res, next) {
     }
   });
 });
+/*Metodo Get One*/
+router.get('/:idGame', function(req, res, next) {
+  Game.findOne({'id':req.params.idGame}, (err, datos)=>{
+    if(err){
+      res.json({'Error':'No existe'});
+    }else{
+      res.status(200).json(datos);
+    }
+  });
+});
 
 /*Metodo Post*/
 router.post('/', (req, res, next)=>{
@@ -23,6 +33,7 @@ router.post('/', (req, res, next)=>{
     compania: req.body.compania,
     consola: req.body.consola
   });
+
   juego.save((err,data)=>{
     if(err){
       res.json({'error':"Error al insertar"});
@@ -44,8 +55,8 @@ router.delete('/:idJuego', function(req, res, next) {
 
 // TODO:
 /*Metodo Patch*/
-router.put('/:idMar', function(req, res, next) {
-  const body = req.body
+router.patch('/:idMar', function(req, res, next) {
+  const body = req.body;
   Game.updateOne({'id':req.params.idMar},
   body,
   (err)=>{
@@ -57,9 +68,43 @@ router.put('/:idMar', function(req, res, next) {
   });
 });
 
+// TODO: Aún se tiene que hacer funcionar el método PUT
 /*Metodo Put*/
-
-
+/*
+router.put('/', (req, res, next)=>{
+  //const body = req.body;
+  var juego = Game({
+    id: req.body.id,
+    nombre: req.body.nombre,
+    anio: req.body.anio,
+    compania: req.body.compania,
+    consola: req.body.consola
+  });
+  //-----------------------------
+  Game.findOne({'id':req.body.id}, (err, datos)=>{
+    if(err){ //Si no lo encuentra lo guarda
+      juego.save((err,data)=>{
+        if(err){
+          res.json({'error':"Error al insertar"});
+        }else{
+          res.status(200).json(data);
+        }
+      });
+    }else{ //Si lo encuentra lo actualiza
+      Game.updateOne({'id':req.body.id},
+      body,
+      (err)=>{
+        if(err){
+          res.json({'Error':'Error de Inserción'});
+        }else{
+          res.json({'Estatus':'Actualizado'});
+        }
+      });
+    }
+  });
+  //----------------------------
+});
+*/
 
 
 module.exports = router;
