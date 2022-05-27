@@ -69,7 +69,6 @@ router.patch('/:idMar', function(req, res, next) {
 });
 
 
-/*Metodo Put*/
 router.put('/:idMar', (req, res, next)=>{
   var juego = Game({
     id: req.body.id,
@@ -88,19 +87,12 @@ router.put('/:idMar', (req, res, next)=>{
     Game.updateOne({'id':req.params.idMar},
     body,
     (err)=>{
-        juego.save((err,data)=>{
-          if(err){
-            res.json({'error':"Error al insertar"});
-          }else{
-            res.status(200).json(data);
-          }
-        });
-      }); // Se cierra el updateOne
-  }
-  //TEST
-
-
-
+      if(err){
+        res.json({'Error':'No existe'});
+      }else{
+        res.json({'Estatus':'Actualizado'});
+      }});
+    }
   }); // Se cierra Función PUT
 
 module.exports = router;
