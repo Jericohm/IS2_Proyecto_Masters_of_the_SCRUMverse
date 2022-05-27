@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.render('dockerI',{style:'styleDocker.css',intro:'/docker/intro',imagenes:'/docker/imagenes'
-  ,directivas:'/docker/directivas',ciclodevida:'/docker/ciclodevida', contenedores:'/docker/contenedores',archivo:'/docker/archivo'});
+  ,directivas:'/docker/directivas',ciclodevida:'/docker/ciclodevida', contenedores:'/docker/contenedores',archivo:'/docker/archivo',regr:'/'});
 });
 
 router.get('/intro', function(req, res, next) {

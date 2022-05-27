@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   img2:'AGM.jpg',img3:'difh.jpg',img4:'HJP.jpg',img5:'JACR.jpg',img6:'MTJS.jpg',
   img7:'LMVO.jpg',img8:'JMRR.jpg',jerico:'/users/jerico', fernan:'/users/fernando'
   ,alan:'/users/alan',dana:'/users/dana', hassel:'/users/hassel',javier:'/users/javier',
-  maria:'/users/maria',jose:'/users/jose',luis:'/users/luis'});
+  maria:'/users/maria',jose:'/users/jose',luis:'/users/luis',regr:'/'});
 });
 
 router.get('/jerico', function(req, res, next) {
