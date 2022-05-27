@@ -78,21 +78,29 @@ router.put('/:idMar', (req, res, next)=>{
     compania: req.body.compania,
     consola: req.body.consola
   });
-
   const body = req.body;
-  Game.updateOne({'id':req.params.idMar},
-  body,
-  (err)=>{
-      juego.save((err,data)=>{
-        if(err){
-          res.json({'error':"Error al insertar"});
-        }else{
-          res.status(200).json(data);
-        }
-      });
-    }); // Se cierra el updateOne
+  //TEST
+  if(req.body.id == null || req.body.nombre == null ||
+  req.body.anio == null || req.body.compania == null ||
+  req.body.consola == null){
+    res.json({'error':"Faltan Campos"});
+  }else{
+    Game.updateOne({'id':req.params.idMar},
+    body,
+    (err)=>{
+        juego.save((err,data)=>{
+          if(err){
+            res.json({'error':"Error al insertar"});
+          }else{
+            res.status(200).json(data);
+          }
+        });
+      }); // Se cierra el updateOne
+  }
+  //TEST
+
+
+
   }); // Se cierra Función PUT
-
-
 
 module.exports = router;
