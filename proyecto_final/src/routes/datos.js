@@ -68,11 +68,9 @@ router.patch('/:idMar', function(req, res, next) {
   });
 });
 
-// TODO: Aún se tiene que hacer funcionar el método PUT
+
 /*Metodo Put*/
-/*
-router.put('/', (req, res, next)=>{
-  //const body = req.body;
+router.put('/:idMar', (req, res, next)=>{
   var juego = Game({
     id: req.body.id,
     nombre: req.body.nombre,
@@ -80,9 +78,11 @@ router.put('/', (req, res, next)=>{
     compania: req.body.compania,
     consola: req.body.consola
   });
-  //-----------------------------
-  Game.findOne({'id':req.body.id}, (err, datos)=>{
-    if(err){ //Si no lo encuentra lo guarda
+
+  const body = req.body;
+  Game.updateOne({'id':req.params.idMar},
+  body,
+  (err)=>{
       juego.save((err,data)=>{
         if(err){
           res.json({'error':"Error al insertar"});
@@ -90,21 +90,9 @@ router.put('/', (req, res, next)=>{
           res.status(200).json(data);
         }
       });
-    }else{ //Si lo encuentra lo actualiza
-      Game.updateOne({'id':req.body.id},
-      body,
-      (err)=>{
-        if(err){
-          res.json({'Error':'Error de Inserción'});
-        }else{
-          res.json({'Estatus':'Actualizado'});
-        }
-      });
-    }
-  });
-  //----------------------------
-});
-*/
+    }); // Se cierra el updateOne
+  }); // Se cierra Función PUT
+
 
 
 module.exports = router;
