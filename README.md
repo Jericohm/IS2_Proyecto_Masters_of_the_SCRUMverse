@@ -1,6 +1,10 @@
 # IS2_Proyecto_Masters_of_the_SCRUMverse
 Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
+## Datos del equipo 
+
+-*Scrum Master*: Fernando Martinez Hernández fernandomartinez737@aragon.unam.mx
+
 
 ### ¿Cómo ejecutar el proyecto en docker?
 
