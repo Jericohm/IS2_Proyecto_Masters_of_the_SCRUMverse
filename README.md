@@ -36,7 +36,7 @@ En este apartado estan contenidas las páginas informativas del proyecto
 - 5.-Contenedores Docker [/contenedores]
 - 6.-Archivo Dockerfile [/archivo]
 
-**EJEMPLO: localhost:3000/docker/intro**
+**EJEMPLO: localhost:3000/docker/[nombre en lista]**
 
 ## Página de Apirest
 En este apartado se encuentran contenidos los métodos GET, POST, DELETE, PATCH Y PUT
