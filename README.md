@@ -11,7 +11,7 @@ Desde la carpeta raíz donde se encuentra el Dockerfile y la carpeta src ejecuta
 
 ## Página principal información del proyecto
 ### localhost:3000/
-
+##
 ## Información de los integrantes del equipo
 
 ### localhost:3000/users/[nombre listado abajo]
