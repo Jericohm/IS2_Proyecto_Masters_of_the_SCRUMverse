@@ -5,6 +5,8 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 -*Scrum Master*: Fernando Martinez Hernández fernandomartinez737@aragon.unam.mx
 
+-*Product Owner*: Daniel Jericó Hernández Mireles jericohernandez78@aragon.unam.mx
+
 -*Integrante Scrum*: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
 
 -*Integrante Scrum*: Luis Miguel Villalpando Oseguera luisvillalpando316@aragon.unam.mx
