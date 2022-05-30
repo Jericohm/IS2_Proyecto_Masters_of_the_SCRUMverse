@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container-fluid bg-dark py-4">
-      <div class="container text-white">        
+      <div class="container text-white">
         <p align="center"><img src="/css/{{logo}}" height="210px" width="340px"></p>
       </div>
     </div>
@@ -21,12 +21,24 @@
         <p class="lead" text-align="justify" ><b>Nuestro proyecto esta formado por dos partes importantes, la parte estática donde se contienen las páginas de usuarios e información relacionada con docker
         y la otra parte que es la dinámica, formada por nuestra tecnología API REST con temática de videojuegos.</b></p>
         <p class="lead" text-align="justify" ><b>NodeJS y Express nos permitieron crear el entorno de desarrollo para las dos partes,
-        MongoDB nos permite crear la base de datos donde estaran almacenandose nuestros datos cuando realizamos una solicitud por medio de POSTMAN, esto se lleva mediante los méotodos GET,POST,PATCH,PUT,DELETE, 
+        MongoDB nos permite crear la base de datos donde estaran almacenandose nuestros datos cuando realizamos una solicitud por medio de POSTMAN, esto se lleva mediante los méotodos GET,POST,PATCH,PUT,DELETE,
         por último Docker nos permite contener todas las páginas y datos que ocuparemos para la aplicación</b></p>
         <h2>Qué secciones tiene?</h2>
         <p class="lead" text-align="justify" ><b>1.- Sección de Usuarios</b></p>
+        <div class="container">
+        <a href={{regr}} >Página principal de usuarios</a>
+        <span class="text-muted" href={{regr}}></span>
+      </div>
         <p class="lead" text-align="justify" ><b>2.- Sección de Docker</b></p>
+        <div class="container">
+        <a href={{regr1}} >Página principal de conceptos Docker</a>
+        <span class="text-muted" href={{regr1}}></span>
+      </div>
         <p class="lead" text-align="justify" ><b>2.- Sección de Datos (APIREST)</b></p>
-    </div>    
+        <div class="container">
+        <a href={{regr2}} >Datos</a>
+        <span class="text-muted" href={{regr2}}></span>
+      </div>
+    </div>
 </body>
 </html>
