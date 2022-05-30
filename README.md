@@ -4,7 +4,8 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 ## Datos del equipo 
 
 -*Scrum Master*: Fernando Martinez Hernández fernandomartinez737@aragon.unam.mx
--*Integrante*: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
+
+-*Integrante Scrum*: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
 
 
 ### ¿Cómo ejecutar el proyecto en docker?
