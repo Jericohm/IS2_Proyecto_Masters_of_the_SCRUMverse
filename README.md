@@ -7,6 +7,8 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 -*Integrante Scrum*: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
 
+-*Integrante Scrum*: Luis Miguel Villalpando Oseguera luisvillalpando316@aragon.unam.mx
+
 
 ### ¿Cómo ejecutar el proyecto en docker?
 
