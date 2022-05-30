@@ -9,6 +9,8 @@ Desde la carpeta raíz donde se encuentra el Dockerfile y la carpeta src ejecuta
 - **Build:  docker build -t pro_fin .**
 - **Run:    docker run -p 3000:3000 pro_fin**
 
+## Página principal información del proyecto
+### localhost:3000/
 
 ## Información de los integrantes del equipo
 
