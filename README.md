@@ -3,17 +3,17 @@ Repositorio del Proyecto Final de la materia de Ingeniería de Software II
 
 ## Datos del equipo 
 
--*Scrum Master*: Fernando Martinez Hernández fernandomartinez737@aragon.unam.mx
+-**Scrum Master**: Fernando Martinez Hernández fernandomartinez737@aragon.unam.mx
 
--*Product Owner*: Daniel Jericó Hernández Mireles jericohernandez78@aragon.unam.mx
+-**Product Owner**: Daniel Jericó Hernández Mireles jericohernandez78@aragon.unam.mx
 
--*Integrante Scrum*: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
+-**Integrante Scrum**: Alan Garcia Mendoza alangarcia55@aragon.unam.mx
 
--*Integrante Scrum*: Luis Miguel Villalpando Oseguera luisvillalpando316@aragon.unam.mx
+-**Integrante Scrum**: Luis Miguel Villalpando Oseguera luisvillalpando316@aragon.unam.mx
 
--*Integrante Scrum*: María Teresa Jiménez Soledad teresajimenez91@aragon.unam.mx
+-**Integrante Scrum**: María Teresa Jiménez Soledad teresajimenez91@aragon.unam.mx
 
--*Integrante Scrum*: José Mario Reyes Rodriguez marioreyes94@aragon.unam.mx 
+-**Integrante Scrum**: José Mario Reyes Rodriguez marioreyes94@aragon.unam.mx 
 
 
 ### ¿Cómo ejecutar el proyecto en docker?
